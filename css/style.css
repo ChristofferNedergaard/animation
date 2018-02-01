@@ -1,0 +1,87 @@
+/**
+ * file: style.css
+ * purpose: effects ...
+ **/
+
+body {
+	background-color: lightblue;
+}
+
+@keyframes shift{
+    25% {
+        font-family: sans-serif;
+    }
+    
+    50% {font-family: cursive;
+}
+    75% {font-family: gill sans;
+    }
+    
+    100% {font-family: fantasy;}
+}
+
+.font{
+    animation-name: shift;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    height: 3%;
+    color: snow;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-shadow: 3px 2px grey;
+    text-align: center;
+    
+}
+
+
+h1 {
+    font-family: sans-serif;
+
+}
+
+body {
+    text-align: center;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url(/images/palm.png);
+    color: aliceblue;
+    
+    
+    
+}
+
+@keyframes image{
+    
+    25% {text-align: left;}
+    50% {text-align: center;}
+    75% {text-align: right;}
+    
+    
+}
+
+
+.image{
+    
+    animation-name: image;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+#second {
+    
+}
+
+#third{
+    
+}
+
+#fourth{
+    
+}
+
+.image{
+    
+}
+
